@@ -16,8 +16,8 @@ public enum  ReturnCodeType {
     BASE_SUCCESS("ZYZH-10001", "成功"),
     BASE_ERROR("ZYZH-10002", "失败"),
     CUSTOMER_QUERY_SUCCESS("ZYZH-10003", "查询客户成功"),
-    CUSTOMER_QUERY_ERROR("ZYZH-10004", "查询失败了啊啊啊啊 啊");
-
+    CUSTOMER_QUERY_ERROR("ZYZH-10004", "查询失败了啊啊啊啊 啊"),
+    CUSTOMER_SELECT_ERROR("ZYZH-10005", "查询失败了啊啊啊啊 啊");
 
     private String code;
 
